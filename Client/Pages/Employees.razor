@@ -1,0 +1,60 @@
+@page "/employees"
+@attribute [Authorize]
+
+<PageTitle>Employees</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Employees" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@employees" LoadData="@Grid0LoadData" Count="@count" TItem="HrApp.Server.Models.HrDB.Employee" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="employee_id" Title="employeeid">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="first_name" Title="firstname">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="last_name" Title="lastname">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="email" Title="email">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="phone_number" Title="phonenumber">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="hire_date" Title="hiredate">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="salary" Title="salary">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="Department.department_name" Title="Department">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="Job.job_title" Title="Job">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Property="Employee1.first_name" Title="Employee1">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Employee" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="employee">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, employee)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

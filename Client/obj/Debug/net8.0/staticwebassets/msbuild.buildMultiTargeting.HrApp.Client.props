@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HrApp.Client.props" />
+</Project>

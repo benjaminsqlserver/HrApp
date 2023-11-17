@@ -1,0 +1,52 @@
+@page "/locations"
+@attribute [Authorize]
+
+<PageTitle>Locations</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Locations" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@locations" LoadData="@Grid0LoadData" Count="@count" TItem="HrApp.Server.Models.HrDB.Location" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Property="location_id" Title="locationid">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Property="street_address" Title="streetaddress">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Property="postal_code" Title="postalcode">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Property="city" Title="city">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Property="state_province" Title="stateprovince">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Property="Country.country_id" Title="Country">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="HrApp.Server.Models.HrDB.Location" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="location">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, location)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\HrApp\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\HrApp\\Client\\obj\\Debug\\net8.0\\compressed\\gva33iq085.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HrApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HrApp.Client.props",
+      "PackagePath": "build\\HrApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HrApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\HrApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HrApp.Client.props",
+      "PackagePath": "buildTransitive\\HrApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

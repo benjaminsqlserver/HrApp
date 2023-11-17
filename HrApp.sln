@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 17.0.0.0
+
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HrApp.Server", "Server\HrApp.Server.csproj", "{682BFB09-813B-4750-A631-37F3E86FE7D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HrApp.Client", "Client\HrApp.Client.csproj", "{F53C1CAE-E9A5-4F3B-81D6-8910A95E9E45}"
+EndProject
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
+		{F53C1CAE-E9A5-4F3B-81D6-8910A95E9E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53C1CAE-E9A5-4F3B-81D6-8910A95E9E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53C1CAE-E9A5-4F3B-81D6-8910A95E9E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53C1CAE-E9A5-4F3B-81D6-8910A95E9E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682BFB09-813B-4750-A631-37F3E86FE7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682BFB09-813B-4750-A631-37F3E86FE7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682BFB09-813B-4750-A631-37F3E86FE7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682BFB09-813B-4750-A631-37F3E86FE7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00803AC0-FC22-44F0-BE86-6C33E35DFBD4}
+	EndGlobalSection
+EndGlobal

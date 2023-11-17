@@ -1,0 +1,175 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = HrApp.Client
+build_property.RootNamespace = HrApp.Client
+build_property.ProjectDir = C:\HrApp\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\HrApp\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/HrApp/Client/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddApplicationRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Sb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Vc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddCountry.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ291bnRyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddDepartment.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRGVwYXJ0bWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddDependent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRGVwZW5kZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRW1wbG95ZWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddJob.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkSm9iLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddLocation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTG9jYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/AddRegion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUmVnaW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/ApplicationRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Sb2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/ApplicationUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Vc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Countries.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Departments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Dependents.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwZW5kZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFwcGxpY2F0aW9uVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditCountry.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdENvdW50cnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditDepartment.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERlcGFydG1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditDependent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERlcGVuZGVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVtcGxveWVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditJob.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEpvYi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditLocation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdExvY2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/EditRegion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFJlZ2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Employees.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Jobs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9icy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Locations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Regions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/RegisterApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJBcHBsaWNhdGlvblVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXRQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/Unauthorized.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5hdXRob3JpemVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Pages/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVkaXJlY3RUb0xvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HrApp/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
